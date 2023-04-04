@@ -1,24 +1,24 @@
 # Community Software Analysis Proposal
 Please edit this file and push to your repository.
 
-## Software: QRMunmps.jl
+## Software: QRMumps.jl
 
 *Write a paragraph describing what the software does and who its
 primary audience is.*
 
 ### Stats
 
-| Description | Your answer |
+| Description | This package provides a Julia interface to qr_mumps, a software for solving sparse linear systems on multicore computers. qr_mumps implements a direct solution method based on the QR or Cholesky factorization of the input matrix. Therefore, it is suited to solving sparse least-squares problems, to computing the minimum-norm solution of sparse, underdetermined problems and to solving symmetric, positive-definite sparse linear systems. |
 |---------|-----------|
 | Repository URL |  https://github.com/JuliaSmoothOptimizers/QRMumps.jl  |
-| Main/documentation website |  https://qr_mumps.gitlab.io/  |
+| Main/documentation website | https://juliasmoothoptimizers.github.io/QRMumps.jl/stable/ |
 | Year project was started |  2015  |
 | Number of contributors in the past year | 5 |
 | Number of contributors in the lifetime of the project |  7  |
 | Number of distinct affiliations | 1, 2-5, 5-10, >10 |
 | Where do development discussions take place? | e.g., GitHub/GitLab issues, mailing list, Slack, etc.  |
-| Typical number of emails/comments per week? |   |
-| Typical number of commits per week? |  |
+| Typical number of emails/comments per week? |  0-3 |
+| Typical number of commits per week? | 0-3 |
 | Typical commit size | `git log --shortstat` may be useful |
 | How does the project accept contributions? | e.g., pull requests, patches on mailing lists   |
 | Does the project have an automated test suite? | yes |
